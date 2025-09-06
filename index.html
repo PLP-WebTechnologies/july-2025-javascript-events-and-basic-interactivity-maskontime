@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maskon MensWear</title>
+
+  <!-- 🌟 Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- 🌟 Link to CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Maskon Suits 🕴️</h1>
+    <!-- Theme Toggle -->
+    <button id="toggleTheme">Switch Theme</button>
+  </header>
+
+  <!-- 🌟 Carousel Section -->
+  <section class="carousel-container">
+    <div class="carousel-slide">
+      <a href="https://images.pexels.com/photos/32798926/pexels-photo-32798926.jpeg" target="_blank">
+  <img src="https://images.pexels.com/photos/32798926/pexels-photo-32798926.jpeg" alt="Suit 1" width="400" height="400">
+</a>
+
+<a href="https://images.pexels.com/photos/33332681/pexels-photo-33332681.jpeg" target="_blank">
+  <img src="https://images.pexels.com/photos/33332681/pexels-photo-33332681.jpeg" alt="Suit 2" width="400" height="400">
+</a>
+
+<a href="https://images.pexels.com/photos/14965555/pexels-photo-14965555.jpeg" target="_blank">
+  <img src="https://images.pexels.com/photos/14965555/pexels-photo-14965555.jpeg" alt="Suit 3" width="400" height="400">
+</a>
+
+<a href="https://images.pexels.com/photos/14965547/pexels-photo-14965547.jpeg" target="_blank">
+  <img src="https://images.pexels.com/photos/14965547/pexels-photo-14965547.jpeg" alt="Suit 4" width="400" height="400">
+</a>
+
+<a href="https://images.pexels.com/photos/13996891/pexels-photo-13996891.jpeg" target="_blank">
+  <img src="https://images.pexels.com/photos/13996891/pexels-photo-13996891.jpeg" alt="Suit 5" width="400" height="400">
+</a>
+
+    </div>
+    <button class="prev">⟨</button>
+    <button class="next">⟩</button>
+  </section>
+
+  <!-- 🌟 Counter Feature -->
+  <section class="counter-section">
+    <h2>Visitor Counter</h2>
+    <p id="counterValue">0</p>
+    <button id="increment">+</button>
+    <button id="decrement">-</button>
+  </section>
+
+  <!-- 🌟 Signup Form -->
+  <section class="form-section">
+    <h2>Join Maskon Family</h2>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Enter Name">
+      <small id="nameError" class="error"></small><br>
+
+      <input type="email" id="email" placeholder="Enter Email">
+      <small id="emailError" class="error"></small><br>
+
+      <input type="password" id="password" placeholder="Enter Password">
+      <small id="passwordError" class="error"></small><br>
+
+      <input type="password" id="confirmPassword" placeholder="Confirm Password">
+      <small id="confirmError" class="error"></small><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Maskon Suits - Elegance in Every Stitch</p>
+  </footer>
+
+  <!-- 🌟 JS -->
+  <script src="Scripts.js"></script>
+</body>
+</html>

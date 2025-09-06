@@ -1,0 +1,96 @@
+/* 🌟 General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: bisque;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+/* 🌟 Header */
+header {
+  padding: 20px;
+  background-color: bisque;
+  color: black;
+}
+
+/* 🌟 Buttons */
+button {
+  background: black;
+  color: gold;
+  border: 2px solid bisque;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+button:hover {
+  background: gold;
+  color: black;
+}
+
+/* 🌟 Carousel */
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: 30px auto;
+  overflow: hidden;
+  border: 3px solid bisque;
+  border-radius: 10px;
+}
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-slide img {
+  width: 100%;
+  flex-shrink: 0;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: bisque;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.prev { left: 10px; }
+.next { right: 10px; }
+
+/* 🌟 Counter */
+.counter-section {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid bisque;
+  border-radius: 10px;
+}
+
+/* 🌟 Form */
+.form-section {
+  margin: 30px auto;
+  padding: 20px;
+  width: 300px;
+  border: 2px solid bisque;
+  border-radius: 10px;
+}
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid bisque;
+  border-radius: 5px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
